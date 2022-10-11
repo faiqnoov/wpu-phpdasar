@@ -1,0 +1,10 @@
+hal yang dipelajari sebelum melakukan fungsi upload:
+yaitu mengenai FILE HANDLING
+- <input type='file' ...
+- enctype (singkatan dr encoding type, untuk mengelola file)
+- $_FILES (var. superglobal)
+- move_upload_file()
+
+
+file gambar nantinya tetap berada di direktori, yang disimpan di db hanya nama filenya saja.
+sebetulnya gambar bisa disimpan di db, karena di mysql ada tipe data BLOB (binary large object), tetapi hal itu menyebabkan ukuran db menjadi sangat besar

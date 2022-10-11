@@ -1,0 +1,11 @@
+LOGIN SYSTEM
+
+untuk memahaminya, ada bbrp hal yg akan kita pelajari:
+- registrasi
+- login
+- session
+- cookie
+
+dan untuk membuat fitur registrasi, kita harus
+- membuat tabel 'user' utk menampung data user
+- enkripsi password

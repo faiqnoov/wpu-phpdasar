@@ -1,0 +1,41 @@
+LOGIN SYSTEM
+
+untuk memahaminya, ada bbrp hal yg akan kita pelajari:
+- registrasi
+- login
+- session
+- cookie
+
+dan untuk membuat fitur registrasi, kita harus
+- membuat tabel 'user' utk menampung data user
+- enkripsi password
+
+=================================================================
+
+SESSION
+=> mekanisme penyimpanan informasi ke dalam variabel agar bisa digunakan di lebih dari satu halaman
+
+- berbeda dengan get & post yg hanya bisa dipakai di 2 halaman, informasi yg dikirim dgn session bisa dipakai di beberapa halaman
+- informasi pada session disimpan di server
+- sangat erat kaitannya dgn cookie
+- ditangani oleh $_SESSION
+- untuk mengisikan data ke var $_SESSION, syaratnya harus jalankan fungsi session_start() sebelum syntax HTML 
+- session akan hilang secara otomatis jika browser ditutup atau komp. dimatikan
+
+
+=================================================================
+
+COOKIE
+=> hampir sama dgn session
+
+- informasi pada cooki disimpan di browser/client, shg client bisa memanipulasinya (tambah, edit, hapus)
+- krn ada pada sisi user, shg bisa menjadi celah keamanan (kenyamanan berbanding terbalik dengan keamanan)
+
+penggunaan:
+- mengenali user
+- shopping cart
+- personalisasi (mengenali perilaku tiap user)
+- $_COOKIE
+- fungsi setcookie()
+- hanya berlaku 1 sesi, sama spt session. namun bisa kita tentukan durasinya
+
